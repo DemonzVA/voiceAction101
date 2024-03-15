@@ -22,7 +22,8 @@ struct CharacterWorksheetPartOne: View {
     var body: some View {
         ScrollView {
             VStack(alignment:.center) {
-                Text("Character Voice Brainstorming")//.padding(EdgeInsets(top: 0, leading: 220, bottom: 0, trailing: 0))
+                Text("Character Voice Brainstorming")
+                //.padding(EdgeInsets(top: 0, leading: 220, bottom: 0, trailing: 0))
                     .font(.title)
                     .bold()
                 Divider()
@@ -30,7 +31,7 @@ struct CharacterWorksheetPartOne: View {
                     .frame(height: 5)
                     .background(Color.black)
                 
-                Text("1. Character name: ________________________")
+                Text("1. Character name: _____________________")
                     .bold()
                     .font(.title)
                 TextField("Enter here", text: $characterName).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
@@ -39,7 +40,7 @@ struct CharacterWorksheetPartOne: View {
                 //  .frame(width: 200)
                 //   .position(CGPoint(x: 280, y: -30))
                 //__________________________
-                Text("2. Character gender: ________________________")
+                Text("2. Character gender: _____________________")
                     .bold()
                     .font(.title)
                 
@@ -47,14 +48,14 @@ struct CharacterWorksheetPartOne: View {
                     .font(.title)
                 //__________________________
                 
-                Text("3. Character age: ________________________")
+                Text("3. Character age: _____________________")
                     .bold()
                     .font(.title)
                 TextField("Enter here", text: $Age).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
                     .font(.title)
                 //__________________________
                 
-                Text("4. Voice type: ________________________")
+                Text("4. Voice type: _____________________")
                     .bold()
                     .font(.title)
                 TextField("Enter here", text: $VoiceType).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
@@ -62,7 +63,7 @@ struct CharacterWorksheetPartOne: View {
                 
                 //__________________________
                 
-                Text("5. Emotion: ________________________")
+                Text("5. Emotion: _____________________")
                     .bold()
                     .font(.title)
                 TextField("Enter here", text: $VoiceType).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
@@ -70,7 +71,7 @@ struct CharacterWorksheetPartOne: View {
                 
                 //__________________________
                 
-                Text("5. Pitch characteristics: ________________________")
+                Text("6. Pitch characteristics: _____________________")
                     .bold()
                     .font(.title)
                 TextField("Enter here", text: $VoiceType).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
