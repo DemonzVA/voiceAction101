@@ -13,7 +13,17 @@ struct EquipmentView: View {
             .font(.title)
             .bold()
         Divider()
-        Text("PLACEHOLDER")
+        Text("Mic - Placeholder")
+            .bold()
+        Text("IMAGE HERE")
+        Text("Pop filter - Placeholder")
+            .bold()
+        Text("IMAGE HERE")
+        Text("Sound Proofing - Placeholder")
+            .bold()
+        Text("IMAGE HERE")
+
+
 
         Spacer()
 

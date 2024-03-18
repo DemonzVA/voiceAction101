@@ -80,12 +80,26 @@ struct CharacterWorksheetPartOne: View {
                 
                 
                 
+                Text("7. Character background: _____________________")
+                    .bold()
+                    .font(.title)
+                TextField("Enter here", text: $VoiceType).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
+                    .font(.title)
+
                 
-                
-                
+                Text("8. Personality: _____________________")
+                    .bold()
+                    .font(.title)
+                TextField("Enter here", text: $VoiceType).padding(EdgeInsets(top: -60, leading: 100, bottom: 30, trailing: 100))
+                    .font(.title)
+
                     .background(Color.black)
                 //    .frame(width: 200)
                 //     .position(CGPoint(x: 280, y: -30))
+                
+                
+                
+                
                 Spacer()
                 
                 

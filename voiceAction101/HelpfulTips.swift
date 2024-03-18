@@ -34,7 +34,10 @@ struct HelpfulTips: View {
                     .font(.largeTitle)
                     .background(Color.black)
                 
-                
+                Text("The voice over industry is VERY competitive. You will often feel like you won't ever get anywhere with it, but that may not be the case. You will hear from many different talents that they get told no about their auditions more than they get told yes.")
+                    .bold()
+                    .font(.title3)
+
                 
 
 
