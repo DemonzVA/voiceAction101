@@ -12,6 +12,8 @@
 		99162A172B964D0E000D1648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99162A162B964D0E000D1648 /* Assets.xcassets */; };
 		99162A1A2B964D0E000D1648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99162A192B964D0E000D1648 /* Preview Assets.xcassets */; };
 		99162A212B964D71000D1648 /* CharacterWorksheetPartOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99162A202B964D71000D1648 /* CharacterWorksheetPartOne.swift */; };
+		992667742BACB0EE00250F52 /* Miyoshi -Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992667732BACB0EE00250F52 /* Miyoshi -Demo.ttf */; };
+		992667772BACB18600250F52 /* fFireBlast.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992667762BACB18600250F52 /* fFireBlast.ttf */; };
 		9940B4072BA4B07200091640 /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940B4062BA4B07200091640 /* EquipmentView.swift */; };
 		9940B4092BA4B4C300091640 /* VocalExcercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940B4082BA4B4C300091640 /* VocalExcercises.swift */; };
 		99437ED22B9B89D6002C25CD /* HelpfulTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99437ED12B9B89D6002C25CD /* HelpfulTips.swift */; };
@@ -25,6 +27,9 @@
 		99162A162B964D0E000D1648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99162A192B964D0E000D1648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99162A202B964D71000D1648 /* CharacterWorksheetPartOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterWorksheetPartOne.swift; sourceTree = "<group>"; };
+		992667732BACB0EE00250F52 /* Miyoshi -Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Miyoshi -Demo.ttf"; sourceTree = "<group>"; };
+		992667752BACB0FC00250F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		992667762BACB18600250F52 /* fFireBlast.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fFireBlast.ttf; sourceTree = "<group>"; };
 		9940B4062BA4B07200091640 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
 		9940B4082BA4B4C300091640 /* VocalExcercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalExcercises.swift; sourceTree = "<group>"; };
 		99437ED12B9B89D6002C25CD /* HelpfulTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulTips.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 		99162A112B964D0A000D1648 /* voiceAction101 */ = {
 			isa = PBXGroup;
 			children = (
+				992667752BACB0FC00250F52 /* Info.plist */,
 				99162A122B964D0A000D1648 /* voiceAction101App.swift */,
 				99162A142B964D0A000D1648 /* ContentView.swift */,
 				9940B4082BA4B4C300091640 /* VocalExcercises.swift */,
@@ -68,6 +74,8 @@
 				99437ED12B9B89D6002C25CD /* HelpfulTips.swift */,
 				9940B4062BA4B07200091640 /* EquipmentView.swift */,
 				99162A202B964D71000D1648 /* CharacterWorksheetPartOne.swift */,
+				992667762BACB18600250F52 /* fFireBlast.ttf */,
+				992667732BACB0EE00250F52 /* Miyoshi -Demo.ttf */,
 				99162A162B964D0E000D1648 /* Assets.xcassets */,
 				99162A182B964D0E000D1648 /* Preview Content */,
 			);
@@ -140,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992667772BACB18600250F52 /* fFireBlast.ttf in Resources */,
 				99162A1A2B964D0E000D1648 /* Preview Assets.xcassets in Resources */,
+				992667742BACB0EE00250F52 /* Miyoshi -Demo.ttf in Resources */,
 				99162A172B964D0E000D1648 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +304,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voiceAction101/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voiceAction101/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +334,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voiceAction101/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voiceAction101/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

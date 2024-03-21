@@ -10,19 +10,18 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-
+        
             NavigationView {
                 ZStack {
                     Image("VALOGORETRY")
-                     //   .resizable()
+                        .resizable()
+                    
                         .aspectRatio(contentMode: .fit)
                       // WORK IN PROGRESS
-
                 
                 VStack {
-                    
-                    //                    Text("Voice Acting 101")
-                    //                        .font(.largeTitle)
+        
+                    // .font(.largeTitle)
                     //                        .bold()
                     //                    Text("(Logo Placeholder)")
                     //                        .bold()
@@ -76,11 +75,17 @@ struct ContentView: View {
                     
                     
                 }
+                    
             }
+                
         }
+        
         .padding()
+        
     }
+    
 }
+
 
 #Preview {
     ContentView()
